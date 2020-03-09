@@ -97,46 +97,46 @@ The p-value is 0.1113, this means we accept the sample population as statistical
 I watched a car advertisement with the intent of gleaning information of what car buyers are looking for. My assumption is that car company marketers know what consumers want. Here's my list of what metrics I would collect data on:
 
 Metric: Data Type, Statistical Test
-Why I think consumer would be interested.
+- Why I think consumer would be interested.
 
 Cost: continuous, Simple Linear Regression
-People will probably want low cost cars.
+- People will probably want low cost cars.
 
 Payment Options: nominal, ANOVA
-Americans will probably want a low interest loan option.
+- Americans will probably want a low interest loan option.
 
 Body Style: nominal, ANOVA
-Hatchback seems to be very popular right now, but it would be good to rank the options.
+- Hatchback seems to be very popular right now, but it would be good to rank the options.
 
 Color: nominal, ANOVA
-I suspect a 'loud' color would be popular for a Mecha Car.
+- I suspect a 'loud' color would be popular for a Mecha Car.
 
 Number of cup holders: ordinal, ANOVA
-The more the better, but this probably tops out at 6 (number of passangers).
+- The more the better, but this probably tops out at 6 (number of passangers).
 
 USB Charger #: ordinal, ANOVA
-The more the better, but this probably tops out at 6 (number of passangers).
+- The more the better, but this probably tops out at 6 (number of passangers).
 
 Sound System Quality: ordinal, ANOVA
-The mid tier option will probably be most popular. I would expect a normal distribution.
+- The mid tier option will probably be most popular. I would expect a normal distribution.
 
 Resale Value: continuous, Simple Linear Regression
-A higher resale value should be more desirable.
+- A higher resale value should be more desirable.
 
 Safety Ranking: ordinal, ANOVA
-A higher safety ranking should be more desirable.
+- A higher safety ranking should be more desirable.
 
 Horse Power: continuous, Simple Linear Regression
-People generally want more horse power, but people also know that means lower MPG. I suspect a right skewed normal distribution.
+- People generally want more horse power, but people also know that means lower MPG. I suspect a right skewed normal distribution.
 
 Transmission Type: nominal, ANOVA
-People will probably want a manual transmission for a Mecha Car
+- People will probably want a manual transmission for a Mecha Car
 
 Power Source: nominal, ANOVA
-I suspect a gas engine will be most popular followed by electric, then hybrid.
+- I suspect a gas engine will be most popular followed by electric, then hybrid.
 
 Mathew McConaughey in commercial?: dichotomous, One-Sample t-Test
-He seems to be in a lot of car commercials. This is also a good way to test if our sample population is large enough.
+- He seems to be in a lot of car commercials. This is also a good way to test if our sample population is large enough.
 
 The dependent variable would be Desirability, ranked 1-10 by a survey taker.
 
