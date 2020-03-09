@@ -36,7 +36,7 @@ Coefficients:
 vehicle.length     6.0811     0.6732   9.033 7.68e-12 ***
 ground.clearance   3.5669     0.5401   6.604 3.26e-08 ***
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
 Residual standard error: 9.078 on 47 degrees of freedom
 Multiple R-squared:  0.674,	Adjusted R-squared:  0.6601 
@@ -106,19 +106,46 @@ Think critically about what metrics you would think would be of interest to a co
 I watched a car advertisement with the intent of gleaning information of what car buyers are looking for. My assumption is that car company marketers know what consumers want. Here's my list of what metrics I would collect data on:
 
 Metric: Data Type, Statistical Test
+- Why I think consumer would be interested.
+
 Cost: continuous, Simple Linear Regression
+- People will probably want low cost cars.
+
 Payment Options: nominal, ANOVA
+- Americans will probably want a low interest loan option.
+
 Body Style: nominal, ANOVA
+- Hatchback seems to be very popular right now, but it would be good to rank the options.
+
 Color: nominal, ANOVA
+- I suspect a 'loud' color would be popular for a Mecha Car.
+
 Number of cup holders: ordinal, ANOVA
+- The more the better, but this probably tops out at 6 (number of passangers).
+
 USB Charger #: ordinal, ANOVA
+- The more the better, but this probably tops out at 6 (number of passangers).
+
 Sound System Quality: ordinal, ANOVA
+- The mid tier option will probably be most popular. I would expect a normal distribution.
+
 Resale Value: continuous, Simple Linear Regression
+- A higher resale value should be more desirable.
+
 Safety Ranking: ordinal, ANOVA
+- A higher safety ranking should be more desirable.
+
 Horse Power: continuous, Simple Linear Regression
+- People generally want more horse power, but people also know that means lower MPG. I suspect a right skewed normal distribution.
+
 Transmission Type: nominal, ANOVA
+- People will probably want a manual transmission for a Mecha Car
+
 Power Source: nominal, ANOVA
+- I suspect a gas engine will be most popular followed by electric, then hybrid.
+
 Mathew McConaughey in commercial?: dichotomous, One-Sample t-Test
+- He seems to be in a lot of car commercials. This is also a good way to test if our sample population is large enough.
 
 The dependent variable would be Desirability, ranked 1-10 by a survey taker.
 
